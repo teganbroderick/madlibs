@@ -22,3 +22,8 @@ form {
 input{
     margin: 3px;
 }
+
+img {
+    width: 120px;
+    height: 120px;
+}
