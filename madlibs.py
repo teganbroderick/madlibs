@@ -60,13 +60,15 @@ def show_madlib():
     noun = request.args.get("noun")
     adjective = request.args.get("adjective")
     animal = request.args.get("animal")
+    country = request.args.get("country")
 
     return render_template("madlib.html",
                             person=person,
                             color=color,
                             noun=noun,
                             adjective=adjective,
-                            animal=animal)
+                            animal=animal,
+                            country=country)
 @app.route('/continue')
 def continue_game():
     """continue game if input is yes"""

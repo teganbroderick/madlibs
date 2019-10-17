@@ -8,11 +8,13 @@ p {
 
 h1 {
     font-size: 72px;
+    text-decoration: underline;
 }
 
 h1.goodbye {
     font-size: 150px;
     color: blue;
+    text-decoration: none;
 }
 
 form {
